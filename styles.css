@@ -15,7 +15,6 @@ body{
 }
 
 .contenedor-menu{
-    background-color: aquamarine;
     height: 100vh;
     width: 38vw;
     display: grid;
@@ -64,10 +63,24 @@ h1{
     align-items: center;
 }
 
+.contenedor-productos-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .producto{
     padding: 10%;
     display: flex;
     flex-direction: column;
+    font-size: 60%;
+    align-items: center;
+}
+
+.producto-carrito{
+    padding: 2%;
+    display: flex;
     font-size: 60%;
     align-items: center;
 }
